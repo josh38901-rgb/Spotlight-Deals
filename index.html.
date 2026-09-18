@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarketNook | Top Deals & Affiliate Picks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="navbar">
+    <div class="logo">Market<span>Nook</span></div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search products, brands, and categories...">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Discover Today's Best Deals</h1>
+    <p>Handpicked recommendations from top stores.</p>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="container">
+    <h2 class="section-title">Shop by Category</h2>
+    <div class="category-grid">
+      <div class="category-card">📱 Electronics</div>
+      <div class="category-card">👗 Fashion</div>
+      <div class="category-card">🏠 Home & Kitchen</div>
+      <div class="category-card">💅 Beauty & Care</div>
+      <div class="category-card">🎮 Gaming</div>
+      <div class="category-card">⚽ Sports & Outdoors</div>
+    </div>
+  </section>
+
+  <!-- Featured Products Grid (Jumia-style layout) -->
+  <main class="container">
+    <h2 class="section-title">Trending Deals</h2>
+    <div class="product-grid">
+
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <span class="badge">-25%</span>
+        <img src="https://via.placeholder.com/200" alt="Product Image">
+        <div class="product-info">
+          <h3 class="product-title">Wireless Noise-Canceling Headphones</h3>
+          <p class="price">$49.99 <span class="old-price">$66.99</span></p>
+          <!-- Replace # with your actual affiliate link -->
+          <a href="#" target="_blank" rel="sponsored nofollow" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card">
+        <span class="badge">-15%</span>
+        <img src="https://via.placeholder.com/200" alt="Product Image">
+        <div class="product-info">
+          <h3 class="product-title">Smart Fitness Watch with Heart Monitor</h3>
+          <p class="price">$29.99 <span class="old-price">$35.00</span></p>
+          <a href="#" target="_blank" rel="sponsored nofollow" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card">
+        <span class="badge">-40%</span>
+        <img src="https://via.placeholder.com/200" alt="Product Image">
+        <div class="product-info">
+          <h3 class="product-title">Ergonomic Office Desk Chair</h3>
+          <p class="price">$89.99 <span class="old-price">$149.99</span></p>
+          <a href="#" target="_blank" rel="sponsored nofollow" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="product-card">
+        <span class="badge">-10%</span>
+        <img src="https://via.placeholder.com/200" alt="Product Image">
+        <div class="product-info">
+          <h3 class="product-title">Portable Bluetooth Speaker</h3>
+          <p class="price">$19.99 <span class="old-price">$22.99</span></p>
+          <a href="#" target="_blank" rel="sponsored nofollow" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
